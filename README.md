@@ -2,7 +2,7 @@
 
 Proxsys VPN Helper is a tray agent for FortiClient's SSL VPN on Windows. It connects silently with your Windows account, reconnects after drops and sleep, and can keep the VPN up from sign-in on.
 
-**To install:** download `ProxsysVpnHelper.exe` from the [latest release](https://github.com/vdepagter/ProxsysVpnHelper-releases/releases/latest) and run it. FortiClient must already be installed.
+**To install:** download `ProxsysVpnHelper.exe` from the [latest release](https://github.com/vdepagter/ProxsysVpnHelper-releases/releases/latest) and run it. It needs FortiClient 7.4 or later, which can be installed before or after the VPN Helper: installed first, the VPN Helper waits and starts working once FortiClient is there.
 
 Installed copies (2.1.0 and later) update themselves from here when automatic updates are enabled. They only install a release whose `latest.json` carries the release signature.
 
